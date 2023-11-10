@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Conception from '../components/layout';
 import { getSortedList } from '../lib/data';
