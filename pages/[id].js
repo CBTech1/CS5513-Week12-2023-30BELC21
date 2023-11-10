@@ -2,7 +2,7 @@ Coimport Head from 'next/head';
 import Conception from '../components/layout';
 import {getEachInfo, getData} from '../lib/data';
 
-export async function getStaticProps( {params} ){
+export await function getStaticProps( {params} ){
   const itemData = await getData(params.id);
   return{
     props:{
@@ -11,7 +11,7 @@ export async function getStaticProps( {params} ){
   };
 }
 
-export async function getStaticPaths(){
+export await function getStaticPaths(){
  const paths = getEachInfo();
   return{
     paths,
@@ -19,7 +19,7 @@ export async function getStaticPaths(){
     };
 }
 
-export default function Entry({itemData}){
+export await default function Entry({itemData}){
   return(
       <Conception>
 <article className="card col-6">
