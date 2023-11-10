@@ -29,7 +29,7 @@ export default function House({AllMaterialTwo,AllMaterial}){
         }
       </div>
       <br></br>
-        <h1> Posts in my wordpress site displayed through </h1>
+        <h1> Posts in my wordpress site displayed through got with WP REST API </h1>
       <div className="list-group">
         {AllMaterial.map(
             ({id, name}) => (
