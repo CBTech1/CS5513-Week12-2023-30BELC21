@@ -1,4 +1,4 @@
-//Coimport Head from 'next/head';
+import Head from 'next/head';
 import Conception from '../components/layout';
 import {getEachInfo, getData} from '../lib/data';
 
